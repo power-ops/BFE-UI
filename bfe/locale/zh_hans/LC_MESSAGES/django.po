@@ -1,0 +1,721 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-24 19:11+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\bfeconfig\admin\config.py:17 .\tokens\admin\token.py:17
+msgid "ClusterConfig"
+msgstr "集群配置"
+
+#: .\bfeconfig\admin\config.py:22 .\tokens\admin\token.py:22
+msgid "Host Rule"
+msgstr ""
+
+#: .\bfeconfig\admin\config.py:27 .\tokens\admin\token.py:27
+msgid "NameConfig"
+msgstr ""
+
+#: .\bfeconfig\admin\config.py:32 .\server_data_conf\models\route_rule.py:104
+#: .\tokens\admin\token.py:32
+msgid "RouteRule"
+msgstr "分流规则"
+
+#: .\bfeconfig\admin\config.py:37 .\tokens\admin\token.py:37
+msgid "VipRule"
+msgstr "Vip 规则"
+
+#: .\bfeconfig\admin\config.py:44 .\tokens\admin\token.py:44
+msgid "ClusterTable"
+msgstr "集群表"
+
+#: .\bfeconfig\admin\config.py:49 .\tokens\admin\token.py:49
+msgid "GSLBData"
+msgstr "gslb.data"
+
+#: .\bfeconfig\admin\config.py:56 .\tokens\admin\token.py:56
+msgid "ServerCertConf"
+msgstr "服务器证书列表"
+
+#: .\bfeconfig\admin\config.py:61 .\tls_conf\forms\session_ticket_key.py:8
+#: .\tls_conf\models\session_ticket_key.py:35 .\tokens\admin\token.py:61
+msgid "SessionTicketKey"
+msgstr ""
+
+#: .\bfeconfig\admin\config.py:66 .\tokens\admin\token.py:66
+msgid "TLSRuleConf"
+msgstr "TLS 规则"
+
+#: .\bfeconfig\admin\config.py:76 .\bfeconfig\admin\config.py:96
+#: .\tokens\admin\token.py:86
+msgid "server_data_conf"
+msgstr "集群的基础信息"
+
+#: .\bfeconfig\admin\config.py:79 .\bfeconfig\admin\config.py:99
+#: .\tokens\admin\token.py:89
+msgid "cluster_conf"
+msgstr "集群配置"
+
+#: .\bfeconfig\admin\config.py:82 .\bfeconfig\admin\config.py:102
+#: .\tokens\admin\token.py:92
+msgid "tls_conf"
+msgstr ""
+
+#: .\bfeconfig\admin\config.py:85 .\bfeconfig\admin\config.py:105
+#: .\tokens\admin\token.py:95
+msgid "mod"
+msgstr ""
+
+#: .\bfeconfig\apps.py:7 .\bfeconfig\models\config.py:62
+#: .\bfeconfig\models\config.py:63
+msgid "Bfe Config"
+msgstr "BFE 配置"
+
+#: .\bfeconfig\forms\config.py:7 .\bfeconfig\models\config.py:27
+msgid "ConfigName"
+msgstr "配置名称"
+
+#: .\bfeconfig\models\config.py:28
+msgid "UUID"
+msgstr ""
+
+#: .\bfeconfig\models\config.py:29
+msgid "ZipFile"
+msgstr ""
+
+#: .\bfeconfig\models\config.py:31
+msgid "ClusterConfigData"
+msgstr "cluster_conf.data"
+
+#: .\bfeconfig\models\config.py:33
+msgid "HostRuleData"
+msgstr "host_rule.data"
+
+#: .\bfeconfig\models\config.py:35
+msgid "NameConfigData"
+msgstr "name_conf.data"
+
+#: .\bfeconfig\models\config.py:37
+msgid "RouteRuleData"
+msgstr "route_rule.data"
+
+#: .\bfeconfig\models\config.py:39
+msgid "VipRuleData"
+msgstr "vip_rule.data"
+
+#: .\bfeconfig\models\config.py:42
+msgid "ClusterTableData"
+msgstr "cluster_table.data"
+
+#: .\bfeconfig\models\config.py:44 .\cluster_conf\models\gslb.py:124
+#: .\cluster_conf\models\gslb.py:125
+msgid "GSLB Data"
+msgstr "gslb.data"
+
+#: .\bfeconfig\models\config.py:47 .\tls_conf\models\server_cert_conf.py:119
+#: .\tls_conf\models\server_cert_conf.py:120
+msgid "Cert Data"
+msgstr "server_cert_conf.data"
+
+#: .\bfeconfig\models\config.py:48 .\tls_conf\models\session_ticket_key.py:47
+#: .\tls_conf\models\session_ticket_key.py:48
+msgid "Session Ticket Key"
+msgstr "session_ticket_key.data"
+
+#: .\bfeconfig\models\config.py:50 .\tls_conf\models\tls_rule_conf.py:116
+#: .\tls_conf\models\tls_rule_conf.py:117
+msgid "TLS Rule Data"
+msgstr "tls_rule_conf.data"
+
+#: .\bfeconfig\models\config.py:54 .\cluster_conf\models\cluster_table.py:47
+#: .\cluster_conf\models\cluster_table.py:118 .\cluster_conf\models\gslb.py:40
+#: .\cluster_conf\models\gslb.py:114 .\mods\models\block.py:37
+#: .\mods\models\block.py:92 .\mods\models\block.py:129
+#: .\mods\models\trust_clientip.py:34 .\mods\models\trust_clientip.py:86
+#: .\mods\models\userid.py:42 .\mods\models\userid.py:100
+#: .\product\models.py:22 .\server_data_conf\models\cluster_conf.py:65
+#: .\server_data_conf\models\cluster_conf.py:173
+#: .\server_data_conf\models\host_rule.py:36
+#: .\server_data_conf\models\host_rule.py:96
+#: .\server_data_conf\models\host_rule.py:164
+#: .\server_data_conf\models\name_conf.py:38
+#: .\server_data_conf\models\name_conf.py:95
+#: .\server_data_conf\models\route_rule.py:40
+#: .\server_data_conf\models\route_rule.py:106
+#: .\server_data_conf\models\vip_rule.py:36
+#: .\server_data_conf\models\vip_rule.py:90
+#: .\tls_conf\models\server_cert_conf.py:47
+#: .\tls_conf\models\server_cert_conf.py:110
+#: .\tls_conf\models\session_ticket_key.py:38
+#: .\tls_conf\models\tls_rule_conf.py:42 .\tls_conf\models\tls_rule_conf.py:107
+#: .\tokens\models\token.py:32
+msgid "Create Date"
+msgstr "创建日期"
+
+#: .\cluster_conf\admin\cluster_table.py:21 .\cluster_conf\admin\gslb.py:21
+#: .\server_data_conf\admin\cluster_conf.py:51
+#: .\server_data_conf\admin\host_rule.py:36
+#: .\server_data_conf\admin\name_conf.py:26
+#: .\server_data_conf\admin\route_rule.py:26
+#: .\server_data_conf\admin\vip_rule.py:26
+#: .\tls_conf\admin\server_cert_conf.py:55
+#: .\tls_conf\admin\session_ticket_key.py:16
+#: .\tls_conf\admin\tls_rule_conf.py:21
+msgid "Meta"
+msgstr ""
+
+#: .\cluster_conf\apps.py:7 .\server_data_conf\models\cluster_conf.py:131
+#: .\server_data_conf\models\cluster_conf.py:132
+msgid "Cluster Config"
+msgstr "集群配置"
+
+#: .\cluster_conf\forms\cluster_table.py:7
+#: .\cluster_conf\models\cluster_table.py:41 .\cluster_conf\models\gslb.py:34
+msgid "Sub Cluster Name"
+msgstr "子集群"
+
+#: .\cluster_conf\forms\cluster_table.py:8
+#: .\cluster_conf\forms\cluster_table.py:21 .\cluster_conf\forms\gslb.py:18
+#: .\cluster_conf\models\cluster_table.py:42
+#: .\cluster_conf\models\cluster_table.py:114 .\cluster_conf\models\gslb.py:110
+#: .\product\admin.py:8 .\product\models.py:19
+#: .\server_data_conf\forms\cluster_conf.py:55
+#: .\server_data_conf\forms\host_rule.py:24
+#: .\server_data_conf\forms\name_conf.py:19
+#: .\server_data_conf\forms\route_rule.py:16
+#: .\server_data_conf\forms\vip_rule.py:17
+#: .\server_data_conf\models\cluster_conf.py:170
+#: .\server_data_conf\models\host_rule.py:157
+#: .\server_data_conf\models\name_conf.py:93
+#: .\server_data_conf\models\route_rule.py:103
+#: .\server_data_conf\models\vip_rule.py:87
+#: .\tls_conf\forms\server_cert_conf.py:26
+#: .\tls_conf\forms\session_ticket_key.py:7
+#: .\tls_conf\forms\tls_rule_conf.py:21
+#: .\tls_conf\models\server_cert_conf.py:105
+#: .\tls_conf\models\session_ticket_key.py:34
+#: .\tls_conf\models\tls_rule_conf.py:102
+msgid "Name"
+msgstr "名称"
+
+#: .\cluster_conf\forms\cluster_table.py:9
+#: .\cluster_conf\models\cluster_table.py:43
+msgid "Address"
+msgstr "地址"
+
+#: .\cluster_conf\forms\cluster_table.py:10
+#: .\cluster_conf\models\cluster_table.py:44
+#: .\server_data_conf\forms\name_conf.py:9
+#: .\server_data_conf\models\name_conf.py:34
+msgid "Port"
+msgstr "端口"
+
+#: .\cluster_conf\forms\cluster_table.py:11 .\cluster_conf\forms\gslb.py:8
+#: .\cluster_conf\models\cluster_table.py:45 .\cluster_conf\models\gslb.py:36
+#: .\server_data_conf\forms\name_conf.py:10
+#: .\server_data_conf\models\name_conf.py:35
+msgid "Weight"
+msgstr "权重"
+
+#: .\cluster_conf\forms\gslb.py:7 .\cluster_conf\models\gslb.py:35
+msgid "GSLB BLACKHOLE"
+msgstr "黑洞"
+
+#: .\cluster_conf\forms\gslb.py:19 .\cluster_conf\models\gslb.py:111
+msgid "Hostname"
+msgstr "主机名"
+
+#: .\cluster_conf\forms\gslb.py:20 .\cluster_conf\models\gslb.py:112
+msgid "Ts"
+msgstr ""
+
+#: .\cluster_conf\models\cluster_table.py:40 .\cluster_conf\models\gslb.py:33
+#: .\server_data_conf\models\route_rule.py:36
+msgid "ClusterName"
+msgstr "集群名称"
+
+#: .\cluster_conf\models\cluster_table.py:75
+#: .\cluster_conf\models\cluster_table.py:76
+msgid "Cluster Table"
+msgstr "集群表"
+
+#: .\cluster_conf\models\cluster_table.py:115 .\mods\models\block.py:91
+#: .\mods\models\trust_clientip.py:85
+#: .\server_data_conf\models\cluster_conf.py:171
+#: .\server_data_conf\models\name_conf.py:94
+#: .\tls_conf\models\tls_rule_conf.py:104
+msgid "Config"
+msgstr "配置"
+
+#: .\cluster_conf\models\cluster_table.py:127
+#: .\cluster_conf\models\cluster_table.py:128
+msgid "Cluster Table Data"
+msgstr "cluster_table.data"
+
+#: .\cluster_conf\models\gslb.py:37
+msgid "Cluster Sub Name"
+msgstr "子集群"
+
+#: .\cluster_conf\models\gslb.py:63 .\cluster_conf\models\gslb.py:64
+msgid "GSLB"
+msgstr ""
+
+#: .\cluster_conf\models\gslb.py:113
+msgid "Clusters"
+msgstr "集群"
+
+#: .\mods\apps.py:7
+msgid "Mods"
+msgstr ""
+
+#: .\mods\models\block.py:30 .\mods\models\userid.py:33
+#: .\server_data_conf\models\route_rule.py:35
+msgid "Porduct"
+msgstr "产品线"
+
+#: .\mods\models\block.py:31
+msgid "action_cmd"
+msgstr ""
+
+#: .\mods\models\block.py:32
+msgid "action_params"
+msgstr ""
+
+#: .\mods\models\block.py:33
+msgid "name"
+msgstr ""
+
+#: .\mods\models\block.py:34
+msgid "cond"
+msgstr ""
+
+#: .\mods\models\block.py:64 .\mods\models\block.py:65
+msgid "Mod Block"
+msgstr ""
+
+#: .\mods\models\block.py:90 .\mods\models\trust_clientip.py:84
+#: .\mods\models\userid.py:98
+msgid "Version"
+msgstr "版本号"
+
+#: .\mods\models\block.py:98 .\mods\models\block.py:99
+msgid "Mod Block Data"
+msgstr ""
+
+#: .\mods\models\block.py:126
+msgid "ip"
+msgstr ""
+
+#: .\mods\models\block.py:146 .\mods\models\block.py:147
+msgid "Mod Block IPBlacklist"
+msgstr ""
+
+#: .\mods\models\trust_clientip.py:29
+msgid "CharField"
+msgstr ""
+
+#: .\mods\models\trust_clientip.py:30
+msgid "Begin"
+msgstr ""
+
+#: .\mods\models\trust_clientip.py:31
+msgid "End"
+msgstr ""
+
+#: .\mods\models\trust_clientip.py:57 .\mods\models\trust_clientip.py:58
+msgid "Mod TrustClientIP"
+msgstr ""
+
+#: .\mods\models\trust_clientip.py:92 .\mods\models\trust_clientip.py:93
+msgid "Mod TrustClientIP Data"
+msgstr ""
+
+#: .\mods\models\userid.py:34 .\server_data_conf\forms\route_rule.py:7
+#: .\server_data_conf\models\route_rule.py:37
+msgid "Cond"
+msgstr "分流条件"
+
+#: .\mods\models\userid.py:35
+msgid "ParamsName"
+msgstr ""
+
+#: .\mods\models\userid.py:36
+msgid "ParamsDomain"
+msgstr ""
+
+#: .\mods\models\userid.py:37
+msgid "ParamsPath"
+msgstr ""
+
+#: .\mods\models\userid.py:38
+msgid "ParamsMaxAge"
+msgstr ""
+
+#: .\mods\models\userid.py:39
+msgid "Generator"
+msgstr ""
+
+#: .\mods\models\userid.py:71 .\mods\models\userid.py:72
+msgid "Mod UserId"
+msgstr ""
+
+#: .\mods\models\userid.py:99
+msgid "Products"
+msgstr "产品线"
+
+#: .\mods\models\userid.py:106 .\mods\models\userid.py:107
+msgid "Mod UserId Data"
+msgstr ""
+
+#: .\product\admin.py:9 .\product\models.py:20 .\tokens\models\token.py:29
+msgid "Comment"
+msgstr "备注"
+
+#: .\product\apps.py:7 .\product\models.py:30 .\product\models.py:31
+#: .\server_data_conf\models\host_rule.py:92
+#: .\tls_conf\models\tls_rule_conf.py:33
+msgid "Product"
+msgstr "产品线"
+
+#: .\server_data_conf\admin\cluster_conf.py:13
+msgid "CheckConf"
+msgstr ""
+
+#: .\server_data_conf\admin\cluster_conf.py:16
+msgid "BackendConf"
+msgstr ""
+
+#: .\server_data_conf\admin\cluster_conf.py:20
+msgid "GslbBasic"
+msgstr ""
+
+#: .\server_data_conf\admin\cluster_conf.py:24
+msgid "HashConf"
+msgstr "会话保持的HASH策略配置"
+
+#: .\server_data_conf\admin\cluster_conf.py:28
+msgid "ClusterBasic"
+msgstr ""
+
+#: .\server_data_conf\apps.py:7
+msgid "Server Data Config"
+msgstr "集群的基础信息"
+
+#: .\server_data_conf\forms\cluster_conf.py:7
+#: .\server_data_conf\models\cluster_conf.py:32
+msgid "Cluster Name"
+msgstr "集群"
+
+#: .\server_data_conf\forms\cluster_conf.py:15
+#: .\server_data_conf\models\cluster_conf.py:35
+msgid "Schem"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:16
+#: .\server_data_conf\models\cluster_conf.py:36
+msgid "Uri"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:17
+#: .\server_data_conf\forms\name_conf.py:8
+#: .\server_data_conf\models\cluster_conf.py:37
+#: .\server_data_conf\models\name_conf.py:33
+msgid "Host"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:18
+#: .\server_data_conf\models\cluster_conf.py:38
+msgid "StatusCode"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:21
+#: .\server_data_conf\models\cluster_conf.py:41
+msgid "TimeoutConnSrv"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:22
+#: .\server_data_conf\models\cluster_conf.py:42
+msgid "TimeoutResponseHeader"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:23
+#: .\server_data_conf\models\cluster_conf.py:43
+msgid "MaxIdleConnsPerHost"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:24
+#: .\server_data_conf\models\cluster_conf.py:44
+msgid "RetryLevel"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:27
+#: .\server_data_conf\models\cluster_conf.py:47
+msgid "CrossRetry"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:28
+#: .\server_data_conf\models\cluster_conf.py:48
+msgid "RetryMax"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:29
+#: .\server_data_conf\models\cluster_conf.py:49
+msgid "BalanceMode"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:31
+#: .\server_data_conf\models\cluster_conf.py:51
+msgid "HashStrategy"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:32
+#: .\server_data_conf\models\cluster_conf.py:52
+msgid "HashHeader"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:33
+#: .\server_data_conf\models\cluster_conf.py:53
+msgid "SessionSticky"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:36
+#: .\server_data_conf\models\cluster_conf.py:56
+msgid "TimeoutReadClient"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:37
+#: .\server_data_conf\models\cluster_conf.py:57
+msgid "TimeoutWriteClient"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:38
+#: .\server_data_conf\models\cluster_conf.py:58
+msgid "TimeoutReadClientAgain"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:39
+#: .\server_data_conf\models\cluster_conf.py:59
+msgid "ReqWriteBufferSize"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:40
+#: .\server_data_conf\models\cluster_conf.py:60
+msgid "ReqFlushInterval"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:41
+#: .\server_data_conf\models\cluster_conf.py:61
+msgid "ResFlushInterval"
+msgstr ""
+
+#: .\server_data_conf\forms\cluster_conf.py:42
+#: .\server_data_conf\models\cluster_conf.py:62
+msgid "CancelOnClientClose"
+msgstr ""
+
+#: .\server_data_conf\forms\host_rule.py:7
+#: .\server_data_conf\models\host_rule.py:32
+#: .\server_data_conf\models\host_rule.py:93
+msgid "Tag"
+msgstr "标签"
+
+#: .\server_data_conf\forms\host_rule.py:8
+#: .\server_data_conf\models\host_rule.py:33
+#: .\tls_conf\forms\server_cert_conf.py:7
+#: .\tls_conf\models\server_cert_conf.py:40
+msgid "Domain"
+msgstr "域名"
+
+#: .\server_data_conf\forms\host_rule.py:25
+#: .\server_data_conf\models\host_rule.py:158
+msgid "Default Product"
+msgstr "默认产品线"
+
+#: .\server_data_conf\forms\name_conf.py:7
+#: .\server_data_conf\models\name_conf.py:32
+msgid "Instance"
+msgstr "实例"
+
+#: .\server_data_conf\forms\vip_rule.py:7
+#: .\server_data_conf\models\vip_rule.py:32
+msgid "Product2Vip"
+msgstr "产品线名称"
+
+#: .\server_data_conf\forms\vip_rule.py:8
+#: .\server_data_conf\models\vip_rule.py:33
+msgid "VipList"
+msgstr "VIP 列表"
+
+#: .\server_data_conf\models\cluster_conf.py:182
+#: .\server_data_conf\models\cluster_conf.py:183
+msgid "Cluster Config Data"
+msgstr "cluster_conf.data"
+
+#: .\server_data_conf\models\host_rule.py:56
+#: .\server_data_conf\models\host_rule.py:57
+msgid "Host Tag"
+msgstr "主机标签"
+
+#: .\server_data_conf\models\host_rule.py:116
+#: .\server_data_conf\models\host_rule.py:117
+msgid "Host Product"
+msgstr "产品线"
+
+#: .\server_data_conf\models\host_rule.py:160
+msgid "Hosts"
+msgstr "主机名"
+
+#: .\server_data_conf\models\host_rule.py:161
+msgid "HostTags"
+msgstr "主机标签"
+
+#: .\server_data_conf\models\host_rule.py:173
+#: .\server_data_conf\models\host_rule.py:174
+msgid "Host Rule Data"
+msgstr "host_rule.data"
+
+#: .\server_data_conf\models\name_conf.py:54
+#: .\server_data_conf\models\name_conf.py:55
+msgid "Name Config"
+msgstr ""
+
+#: .\server_data_conf\models\name_conf.py:104
+#: .\server_data_conf\models\name_conf.py:105
+msgid "Name Config Data"
+msgstr "name_conf.data"
+
+#: .\server_data_conf\models\route_rule.py:64
+#: .\server_data_conf\models\route_rule.py:65
+msgid "Route Rule"
+msgstr "分流规则"
+
+#: .\server_data_conf\models\route_rule.py:115
+#: .\server_data_conf\models\route_rule.py:116
+msgid "Route Rule Data"
+msgstr "route_rule.data"
+
+#: .\server_data_conf\models\vip_rule.py:48
+#: .\server_data_conf\models\vip_rule.py:49
+msgid "Vip Rule"
+msgstr "Vip 规则"
+
+#: .\server_data_conf\models\vip_rule.py:88
+msgid "Vips"
+msgstr ""
+
+#: .\server_data_conf\models\vip_rule.py:99
+#: .\server_data_conf\models\vip_rule.py:100
+msgid "Vip Rule Data"
+msgstr "vip_rule.data"
+
+#: .\tls_conf\admin\server_cert_conf.py:15
+msgid "ServerCertData"
+msgstr "服务器证书"
+
+#: .\tls_conf\admin\server_cert_conf.py:20
+msgid "ServerKeyData"
+msgstr "证书关联密钥"
+
+#: .\tls_conf\admin\server_cert_conf.py:31
+#: .\tls_conf\forms\server_cert_conf.py:9
+#: .\tls_conf\models\server_cert_conf.py:43
+msgid "ServerCert"
+msgstr "服务器证书名"
+
+#: .\tls_conf\admin\server_cert_conf.py:34
+#: .\tls_conf\forms\server_cert_conf.py:8
+#: .\tls_conf\models\server_cert_conf.py:41
+msgid "ServerKey"
+msgstr "证书关联密钥"
+
+#: .\tls_conf\apps.py:7
+msgid "TLS Config"
+msgstr "TLS 配置"
+
+#: .\tls_conf\forms\server_cert_conf.py:27
+#: .\tls_conf\models\server_cert_conf.py:106
+msgid "Default"
+msgstr "默认值"
+
+#: .\tls_conf\forms\tls_rule_conf.py:7 .\tls_conf\models\tls_rule_conf.py:34
+msgid "VipConf"
+msgstr "VIP列表"
+
+#: .\tls_conf\forms\tls_rule_conf.py:8 .\tls_conf\models\tls_rule_conf.py:35
+msgid "SniConf"
+msgstr "域名列表"
+
+#: .\tls_conf\forms\tls_rule_conf.py:9 .\tls_conf\models\tls_rule_conf.py:36
+msgid "CertName"
+msgstr "服务端证书名称"
+
+#: .\tls_conf\forms\tls_rule_conf.py:10 .\tls_conf\models\tls_rule_conf.py:37
+msgid "NextProtos"
+msgstr "TLS应用层协议列表"
+
+#: .\tls_conf\forms\tls_rule_conf.py:11 .\tls_conf\models\tls_rule_conf.py:38
+msgid "Grade"
+msgstr "TLS安全等级"
+
+#: .\tls_conf\forms\tls_rule_conf.py:12 .\tls_conf\models\tls_rule_conf.py:39
+msgid "ClientCAName"
+msgstr "客户端证书签发CA名称"
+
+#: .\tls_conf\forms\tls_rule_conf.py:22 .\tls_conf\models\tls_rule_conf.py:103
+msgid "DefaultNextProtos"
+msgstr "支持的TLS应用层协议列表"
+
+#: .\tls_conf\models\server_cert_conf.py:42
+msgid "ServerKeyName"
+msgstr "证书关联密钥名"
+
+#: .\tls_conf\models\server_cert_conf.py:44
+msgid "ServerCertName"
+msgstr "证书文件名"
+
+#: .\tls_conf\models\server_cert_conf.py:63
+#: .\tls_conf\models\server_cert_conf.py:64
+msgid "Cert"
+msgstr "证书"
+
+#: .\tls_conf\models\server_cert_conf.py:107
+msgid "CertConf"
+msgstr "所有证书列表"
+
+#: .\tls_conf\models\tls_rule_conf.py:61 .\tls_conf\models\tls_rule_conf.py:62
+msgid "TLS Rule"
+msgstr "TLS 规则"
+
+#: .\tokens\apps.py:7
+msgid "Tokens"
+msgstr "令牌组"
+
+#: .\tokens\forms\token.py:7 .\tokens\models\token.py:25
+msgid "AppName"
+msgstr "APP名称"
+
+#: .\tokens\models\token.py:26
+msgid "TokenId"
+msgstr "令牌 ID"
+
+#: .\tokens\models\token.py:27
+msgid "BfeConfig"
+msgstr "BFE 配置"
+
+#: .\tokens\models\token.py:49 .\tokens\models\token.py:50
+msgid "Token"
+msgstr "令牌"
